@@ -1,0 +1,3 @@
+-- TODO: escreva um SELECT que devolve o título do livro e o nome da pessoa
+-- para todo empréstimo que ainda não foi devolvido (data_devolucao IS NULL).
+-- Use JOIN entre emprestimos e livros.

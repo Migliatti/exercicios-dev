@@ -24,6 +24,7 @@ Uso de IA durante a tentativa: liberado só para fricção mecânica (erro de si
 ## Subir o ambiente
 
 ```bash
+npm install
 docker compose up -d
 ```
 

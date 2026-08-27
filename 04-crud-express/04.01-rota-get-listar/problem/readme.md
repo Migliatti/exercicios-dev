@@ -13,3 +13,5 @@ E em outro terminal:
     curl http://localhost:3000/livros
 
 Resultado esperado: um array JSON com os 2 livros inseridos acima.
+
+Atenção: se o Postgres não estiver rodando (ou a conexão falhar), o processo do servidor pode travar/derrubar com um erro não tratado em vez de responder com um HTTP de erro limpo — isso é esperado nesta etapa do curso (Express 4 não captura rejeições de promises em rotas `async` automaticamente), não é um bug no seu código.

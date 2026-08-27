@@ -26,4 +26,4 @@ INSERT INTO livros (titulo, autor, ano, disponivel) VALUES
 
 INSERT INTO emprestimos (livro_id, pessoa, data_emprestimo, data_devolucao) VALUES
   (2, 'Ana', '2026-08-01', NULL),
-  (5, 'Bruno', '2026-07-15', '2026-07-30');
+  (1, 'Bruno', '2026-07-15', '2026-07-30');

@@ -4,11 +4,13 @@ Primeiro, apague as tabelas antigas (feitas via SQL cru na seção 01):
 
     echo "DROP TABLE IF EXISTS emprestimos, livros;" | docker compose exec -T postgres psql -U biblioteca -d biblioteca
 
+A pasta `migrations/` começa vazia neste repositório.
+
 Depois, gere uma migration nova:
 
     npx node-pg-migrate create criar-tabela-livros
 
-Isso cria um arquivo em `migrations/<timestamp>_criar-tabela-livros.js`. Abra esse arquivo e implemente `up`/`down` seguindo os `TODO`s de `exemplo-migration.js` (nesta pasta) — o exemplo é só referência, o arquivo real que o `node-pg-migrate` usa é o gerado em `migrations/`.
+Isso cria o primeiro arquivo real dessa pasta, em `migrations/<timestamp>_criar-tabela-livros.js`. Abra esse arquivo e implemente `up`/`down` seguindo os `TODO`s de `exemplo-migration.js` (nesta pasta) — o exemplo é só referência, o arquivo real que o `node-pg-migrate` usa é o gerado em `migrations/`.
 
 A tabela `livros` deve ter: `id` (serial, chave primária), `titulo` (text, obrigatório), `autor` (text, obrigatório), `ano` (integer, obrigatório), `disponivel` (boolean, obrigatório, default `true`).
 

@@ -1,0 +1,9 @@
+services:
+  postgres-treino:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: treino
+      POSTGRES_PASSWORD: treino
+      POSTGRES_DB: treino
+    ports:
+      - "5433:5432"

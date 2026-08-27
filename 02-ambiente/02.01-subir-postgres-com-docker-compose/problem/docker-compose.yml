@@ -1,0 +1,9 @@
+services:
+  postgres-treino:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: treino
+      # TODO: defina POSTGRES_PASSWORD como "treino"
+      POSTGRES_DB: treino
+    ports:
+      # TODO: mapeie a porta 5432 do container para a porta 5433 da sua máquina

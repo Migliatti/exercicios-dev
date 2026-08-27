@@ -1,8 +1,6 @@
 # exercícios-dev
 
-Exercícios pequenos e graduados de programação — TypeScript, Node.js, SQL, Postgres, Express e testes — feitos pra praticar cada conceito isolado antes de aplicá-lo no [`helpdesk-system`](https://github.com/Migliatti/helpdesk-system) real (o artefato do portão de domínio técnico descrito em [Migliatti/lazarus#24](https://github.com/Migliatti/lazarus/issues/24)).
-
-Mapa completo de conceitos por fase: [trilha-conceitos-helpdesk.md](https://github.com/Migliatti/lazarus/blob/main/docs/trilha-conceitos-helpdesk.md).
+Exercícios pequenos e graduados de programação — TypeScript, Node.js, SQL, Postgres, Express e testes — feitos pra praticar cada conceito isolado antes de aplicá-lo no [`helpdesk-system`](https://github.com/Migliatti/helpdesk-system) real.
 
 ## Como usar
 

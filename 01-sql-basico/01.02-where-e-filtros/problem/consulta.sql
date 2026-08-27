@@ -1,0 +1,2 @@
+-- TODO: escreva um SELECT que devolve todas as colunas dos livros
+-- que estão indisponíveis (disponivel = false).

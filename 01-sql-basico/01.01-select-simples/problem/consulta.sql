@@ -1,0 +1,2 @@
+-- TODO: escreva um SELECT que devolve titulo e autor de todos os livros,
+-- ordenados por ano (do mais antigo pro mais novo).

@@ -2,14 +2,12 @@
 // Não precisa anotar o tipo de retorno — deixe o TypeScript inferir.
 
 function formatarLivro(titulo: string, ano: number) {
-  // TODO: implemente aqui
   return `${titulo} (${ano})`;
 }
 
 // TODO 2: escreva uma função chamada situacaoDoLivro que recebe um boolean "disponivel" e devolve "disponível" se true, ou "emprestado" se false.
 
 function situacaoDoLivro(disponivel: boolean) {
-  // TODO: implemente aqui
   return disponivel ? "disponível" : "emprestado";
 }
 

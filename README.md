@@ -4,7 +4,7 @@ Exercícios pequenos e graduados de programação — TypeScript, Node.js, SQL, 
 
 ## Como usar
 
-Cada exercício tem três pastas:
+Cada exercício tem três itens:
 
 - `explainer.md` — o conceito, curto.
 - `problem/` — código com `TODO`s. Tente implementar sozinho antes de olhar a solução.
